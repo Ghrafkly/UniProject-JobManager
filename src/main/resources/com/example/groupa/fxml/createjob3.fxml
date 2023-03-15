@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="700.0" prefWidth="1300.0" type="AnchorPane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="10.0" layoutY="10.0" prefHeight="700.0" prefWidth="1300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <VBox alignment="CENTER" prefHeight="700.0" prefWidth="1300.0" spacing="20.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="Create Job">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label text="Select Skills">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Label>
+                  <VBox fx:id="vbContent" alignment="CENTER_LEFT" prefHeight="293.0" prefWidth="1300.0" spacing="10.0" stylesheets="@../css/checkbox.css">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="600.0" />
+                     </padding></VBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="1300.0" spacing="50.0">
+                     <children>
+                        <Button fx:id="btnCancel" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" text="Back">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnCreate" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" text="Create">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</fx:root>

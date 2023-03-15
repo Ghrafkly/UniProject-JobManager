@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<fx:root fx:id="apWelcome" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" stylesheets="@../css/guest.css" type="AnchorPane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <BorderPane prefHeight="900.0" prefWidth="1600.0">
+            <left>
+                <VBox id="sidebar" fx:id="sidebar" alignment="CENTER" prefHeight="781.0" prefWidth="859.0" spacing="20.0" BorderPane.alignment="CENTER">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <BorderPane.margin>
+                        <Insets />
+                    </BorderPane.margin>
+               <children>
+                  <Text id="logo" fx:id="logo11" strokeType="OUTSIDE" strokeWidth="0.0" text="Monash Job Seeking Centre" x="70.0" y="400.0">
+                     <font>
+                        <Font name="System Bold" size="55.0" />
+                     </font>
+                  </Text>
+                  <Text id="logo" fx:id="logo111" strokeType="OUTSIDE" strokeWidth="0.0" text="Job Seeking System" x="200.0" y="450.0">
+                     <font>
+                        <Font name="System Bold" size="49.0" />
+                     </font>
+                  </Text>
+               </children>
+                </VBox>
+            </left>
+            <center>
+                <VBox alignment="TOP_CENTER" fillWidth="false" prefHeight="781.0" prefWidth="737.0" spacing="40.0" BorderPane.alignment="CENTER">
+               <children>
+                        <ImageView fitHeight="314.0" fitWidth="293.0" pickOnBounds="true" preserveRatio="true" x="1100.0" y="20.0">
+                            <image>
+                                <Image url="@../icons/monash.png" />
+                            </image>
+                        </ImageView>
+                  <Text id="logo" fx:id="logo1" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME" x="1140.0" y="400.0">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Text>
+                  <VBox prefHeight="101.0" prefWidth="412.0" spacing="30.0">
+                     <children>
+                        <TextField fx:id="tfEmail" prefHeight="34.0" prefWidth="400.0" promptText="Email" />
+                        <PasswordField fx:id="pfPassword" prefHeight="34.0" prefWidth="400.0" promptText="Password" />
+                     </children>
+                  </VBox>
+                  <HBox alignment="CENTER" prefHeight="30.0" prefWidth="400.0" spacing="150.0">
+                     <children>
+                        <RadioButton fx:id="rbSeeker" mnemonicParsing="false" text="Seeker" />
+                        <RadioButton fx:id="rbRecruiter" mnemonicParsing="false" text="Recruiter" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="23.0" prefWidth="641.0" spacing="30.0">
+                     <children>
+                              <Button fx:id="btnGuest" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" text="Guest" />
+                        <Button fx:id="btnLogin" mnemonicParsing="false" prefHeight="25.0" prefWidth="192.0" text="Login" />
+                        <Button fx:id="btnRegister" mnemonicParsing="false" prefHeight="25.0" prefWidth="83.0" text="Register" />
+                     </children>
+                  </HBox>
+                  <Button fx:id="btnResetPassword" mnemonicParsing="false" text="Forgot password?" />
+               </children>
+               <padding>
+                  <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+               </padding></VBox>
+            </center>
+        </BorderPane>
+    </children>
+</fx:root>

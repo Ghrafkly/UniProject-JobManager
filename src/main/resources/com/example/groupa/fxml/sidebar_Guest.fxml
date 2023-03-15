@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root id="sidebar" fx:id="sidebar" prefHeight="780.0" prefWidth="300.0" type="VBox" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Welcome!" textAlignment="CENTER" />
+      <Label text="You are currently viewing MonJSS as a guest." />
+      <Label text="Create account or  sign in to use full functionality. " textAlignment="CENTER" />
+      <Label />
+      <Label />
+      <Label />
+      <Button fx:id="btnFindJobs" alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="300.0" text="Find Jobs">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Button>
+      <Button fx:id="btnCreateAccount" alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="230.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="400.0" text="Create Account">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Button>
+      <Button fx:id="btnLogout" alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="168.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="400.0" text="Log Out">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Button>
+      <Pane prefHeight="421.0" prefWidth="300.0">
+         <children>
+            <Button fx:id="btnReset" layoutX="109.0" layoutY="445.0" mnemonicParsing="false" text="RESET DATA" />
+         </children>
+      </Pane>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets top="100.0" />
+   </padding>
+</fx:root>

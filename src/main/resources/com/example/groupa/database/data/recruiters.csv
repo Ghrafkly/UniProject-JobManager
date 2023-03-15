@@ -1,0 +1,6 @@
+email_address,role_id,user_password,user_first_name,user_last_name,company_id
+one@email.com.au,2,password,Adam,Smith,2
+two@email.com.au,2,password,Bridgett,Smith,2
+three@email.com.au,2,password,Colin,Smith,7
+four@email.com.au,2,password,Diana,Smith,8
+five@email.com.au,2,password,Ed,Smith,9

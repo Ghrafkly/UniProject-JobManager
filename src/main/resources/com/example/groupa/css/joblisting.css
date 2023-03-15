@@ -1,0 +1,25 @@
+#backButton:hover {
+    -fx-underline: true;
+    -fx-text-fill: #346f9a;
+}
+
+#apply {
+    -fx-background-color: #00e600;
+    -fx-text-fill: white;
+}
+
+#apply:hover {
+    -fx-background-color: #00b300;
+    -fx-text-fill: white;
+}
+
+#cancel {
+    -fx-background-color: #ff3333;
+    -fx-text-fill: white;
+}
+
+#cancel:hover {
+    -fx-background-color: #ff0000;
+    -fx-text-fill: white;
+}
+

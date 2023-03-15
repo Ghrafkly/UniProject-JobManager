@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root fx:id="findjobs" prefHeight="700.0" prefWidth="1300.0" type="AnchorPane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="700.0" prefWidth="1300.0" stylesheets="@../css/joblisting.css">
+         <center>
+            <VBox alignment="TOP_CENTER" prefHeight="397.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="700.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <Label text="Location:">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="lblLocation" text="&lt;location&gt;">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" layoutX="88.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <Label text="Salary:">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="lblSalary" text="&lt;salary&gt;">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="700.0" spacing="10.0">
+                     <children>
+                        <Label text="Certification:">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblCertification" text="&lt;certification&gt;">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="198.0" prefWidth="600.0" spacing="20.0">
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Label text="Description">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <TextArea fx:id="taDescription" editable="false" prefHeight="168.0" prefWidth="157.0">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </TextArea>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Label text="Skills">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <TextArea fx:id="taSkills" editable="false" prefHeight="200.0" prefWidth="200.0">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </TextArea>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+         </center>
+         <opaqueInsets>
+            <Insets left="100.0" right="100.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets left="400.0" right="400.0" />
+         </padding>
+         <top>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="lblTitle" text="&lt;Job Title&gt;" underline="true">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="lblCompany" text="&lt;Company&gt;">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </top>
+         <bottom>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="btnApply" mnemonicParsing="false" prefHeight="75.0" prefWidth="300.0" text="Apply Now">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label id="backButton" fx:id="lblBack" text="&lt; Back to Search Results" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </VBox>
+         </bottom>
+      </BorderPane>
+   </children>
+</fx:root>

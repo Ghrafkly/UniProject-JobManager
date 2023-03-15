@@ -1,0 +1,56 @@
+/*#8E5572*/
+/*C1ACB9*/
+
+/*Header Properties*/
+#header {
+    -fx-background-color: #8E5572;
+}
+
+#header #logo, #search {
+    -fx-fill: #FFFFFF;
+}
+
+#header .button {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 0em;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 1px;
+    -fx-text-fill: #000000;
+    -fx-cursor: hand;
+}
+
+#header .button:hover {
+    -fx-background-color: #C1ACB9;
+    -fx-text-fill: #000000;
+}
+
+/*Side Bar Properties*/
+#sidebar {
+    -fx-background-color: #C1ACB9;
+}
+
+#sidebar .button {
+    -fx-background-color: #C1ACB9;
+    -fx-background-radius: 0em;
+}
+
+#sidebar .button:hover {
+    -fx-background-color: #8E5572;
+    -fx-text-fill: #FFFFFF;
+}
+
+#sidebar .button:pressed {
+    -fx-background-color: #C1ACB9;
+    -fx-text-fill: #FFFFFF;
+}
+
+#sidebar .button:focused{
+    -fx-background-color: #8E5572;
+    -fx-border-color: #000000;
+    -fx-border-width: 0px 0px 0px 3px;
+    -fx-text-fill: #FFFFFF;
+}
+
+.button {
+    -fx-cursor: hand;
+}

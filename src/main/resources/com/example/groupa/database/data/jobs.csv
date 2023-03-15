@@ -1,0 +1,23 @@
+job_title,job_description,job_salary,job_location,job_date_created,job_date_app_close,status_id,company_id,certification_id
+Software Engineer,Software Engineer,100000,2000,2020-01-01,2020-01-31,1,1,1
+Sound Specialist,Sound Specialist,100000,3000,2020-01-01,2020-01-31,1,2,1
+Nurse,Nurse,100000,5000,2020-01-01,2020-01-31,1,3,1
+Project Manager,Project Manager,100000,6000,2020-01-01,2020-01-31,1,4,1
+Doctor,Doctor,100000,4000,2020-01-01,2020-01-31,1,5,1
+Golfer,Golfer,100000,2601,2020-01-01,2020-01-31,1,6,1
+Journalist,Journalist,100000,7000,2020-01-01,2020-01-31,1,7,1
+Web Designer,Web Designer,100000,0810,2020-01-01,2020-01-31,1,8,1
+Service Worker,Service Worker,100000,2000,2020-01-01,2020-01-31,1,9,1
+Childcare Worker,Childcare Worker,100000,2000,2020-01-01,2020-01-31,1,10,1
+Chef,Chef,100000,2000,2020-01-01,2020-01-31,1,1,1
+Electrician,Electrician,100000,2000,2020-01-01,2020-01-31,1,2,2
+Hospitality,Hospitality,100000,2000,2020-01-01,2020-01-31,1,3,1
+Plumber,Plumber,100000,2000,2020-01-01,2020-01-31,1,4,1
+Accountant,Accountant,100000,2000,2020-01-01,2020-01-31,1,5,1
+Carpenter,Carpenter,100000,2000,2020-01-01,2020-01-31,1,6,1
+Arborist,Arborist,100000,2000,2020-01-01,2020-01-31,1,7,1
+Landscape Designer,Landscape Designer,100000,2000,2020-01-01,2020-01-31,1,8,1
+Gardener,Gardener,100000,2000,2020-01-01,2020-01-31,1,9,1
+Cleaner,Cleaner,100000,2000,2020-01-01,2020-01-31,1,10,1
+Lecturer,Lecturer,100000,2000,2020-01-01,2020-01-31,1,1,1
+School Teacher,School Teacher,100000,2000,2020-01-01,2020-01-31,1,2,1
